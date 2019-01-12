@@ -19,6 +19,10 @@ div {
   margin: 1em;
 }
 
+.image {
+  margin: 0;
+}
+
 h1 {
   font-size: 1.5rem;
 }
@@ -28,7 +32,12 @@ img {
 }
 
 p {
+  margin-top: 0;
+}
+
+article {
   margin: 0;
+  margin-bottom: 1.5;
 }
 
 a {
