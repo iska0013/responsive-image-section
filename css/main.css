@@ -1,3 +1,9 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html {
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
@@ -22,6 +28,8 @@ body {
 
 .img-flex {
   margin: 0;
+  display: block;
+  width: 100%;
 }
 
 h1 {
@@ -70,6 +78,13 @@ a {
     vertical-align: middle;
   }
 
+  section {
+    text-align: center;
+  }
+
+  .text {
+    text-align: left;
+  }
 }
 
 @media only screen and (min-width: 60em){
